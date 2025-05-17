@@ -54,6 +54,10 @@ This is a **UI-only prototype**. No backend functionality (authentication, data 
 - Implement real-time matchmaking using skills
 - Add database and authentication services
 
-```
+![image](https://github.com/user-attachments/assets/a8024157-dd36-4f08-b990-b8e2da84fcc1)
+![image](https://github.com/user-attachments/assets/55a5d677-3ac7-426d-80b5-525cb5e5646a)
+
+
+
 
 
