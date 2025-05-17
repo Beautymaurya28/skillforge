@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-inter text-primary bg-coolGray-light min-h-screen;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins font-semibold;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-70 backdrop-blur-lg border border-white border-opacity-20 shadow-glass rounded-xl;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-opacity-50;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary-light focus:ring-primary;
+  }
+  
+  .btn-accent {
+    @apply btn bg-accent text-primary hover:bg-accent-light focus:ring-accent;
+  }
+
+  .btn-success {
+    @apply btn bg-success text-white hover:bg-success-light focus:ring-success;
+  }
+
+  .badge {
+    @apply px-2 py-1 text-xs font-semibold rounded-full;
+  }
+
+  .badge-accent {
+    @apply badge bg-accent text-primary;
+  }
+
+  .badge-success {
+    @apply badge bg-success text-white;
+  }
+
+  .badge-primary {
+    @apply badge bg-primary text-white;
+  }
+
+  .card {
+    @apply bg-white rounded-xl shadow-md overflow-hidden;
+  }
+
+  .container-custom {
+    @apply container mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .section {
+    @apply py-12 md:py-16 lg:py-20;
+  }
+
+  .xp-bar {
+    @apply h-2 bg-coolGray rounded-full overflow-hidden;
+  }
+
+  .xp-progress {
+    @apply h-full bg-accent rounded-full transition-all duration-500;
+  }
+
+  .skill-node {
+    @apply relative w-24 h-24 rounded-full bg-white shadow-md flex items-center justify-center cursor-pointer transition-all duration-200 hover:shadow-lg;
+  }
+
+  .skill-node-glow {
+    @apply absolute -inset-1 rounded-full bg-accent opacity-0 blur transition-opacity duration-200;
+  }
+
+  .skill-node:hover .skill-node-glow {
+    @apply opacity-30;
+  }
+
+  .skill-connector {
+    @apply h-1 bg-gradient-to-r from-accent to-primary rounded-full;
+  }
+}

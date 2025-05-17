@@ -1,0 +1,37 @@
+<svg
+  width="32"
+  height="32"
+  viewBox="0 0 32 32"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect width="32" height="32" rx="8" fill="#0a1f44" />
+  <path
+    d="M22 11L16 7L10 11V21L16 25L22 21V11Z"
+    stroke="#4fc3f7"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M16 17L16 25"
+    stroke="#4fc3f7"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M22 11L16 15L10 11"
+    stroke="#4fc3f7"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M10 21L16 17L22 21"
+    stroke="#4fc3f7"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+</svg>
