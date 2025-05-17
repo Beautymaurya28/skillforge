@@ -1,6 +1,4 @@
-Based on your uploaded project `skillforge-main.zip`, here’s a clean and professional `README.md` **text** describing your UI-only website:
 
-```
 # SkillForge
 
 SkillForge is a frontend-only web application that allows students to form learning groups based on their individual skill sets. The UI is designed to be minimal, responsive, and student-focused, providing a modern experience for peer-to-peer collaboration.
